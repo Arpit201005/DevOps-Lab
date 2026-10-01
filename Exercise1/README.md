@@ -21,8 +21,7 @@ kubectl get pods
 kubectl expose pod hello-k8s --type=NodePort --port=80
 
 minikube service hello-k8s
-
-
+```
 Description:-
 In this exercise, an Nginx container is deployed as a Pod in a local Kubernetes cluster using Minikube.
 The Pod is then exposed using a NodePort Service, allowing the Nginx application to be accessed through a web browser.
