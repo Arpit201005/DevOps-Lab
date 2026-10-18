@@ -65,11 +65,11 @@ The following checks were completed:
 ## 7. Screenshots
 ### Jenkins Sign-in Page
 
-![Jenkins Sign-in Page](Screenshots/IMAGE_LOGIN.png)
+![Jenkins Sign-in Page](IMAGE_LOGIN.png)
 
 ### Jenkins Dashboard
 
-![Jenkins Dashboard](Screenshots/IMAGE_DASHBOARD.png)
+![Jenkins Dashboard](IMAGE_DASHBOARD.png)
 
 ## 8. Conclusion
 
