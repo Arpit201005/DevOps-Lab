@@ -166,30 +166,6 @@ The application provides the following endpoints:
 - `/buy` – Simulates a flash-sale purchase.
 - `/health` – Returns the health status of the application.
 
-## Screenshots of Output
-
-Add your own screenshots to the `screenshots` folder and update the filenames below to match the images you save.
-
-### 1. Screenshot of ReplicaSet Scaling
-
-![ReplicaSet scaled to five replicas](screenshots/replicaset-scaling.png)
-
-### 2. Screenshot of Running Pods
-
-![Five running Flash Sale Pods](screenshots/running-pods.png)
-
-### 3. Screenshot of Pod Distribution
-
-![Pod distribution across the Minikube node](screenshots/pod-distribution.png)
-
-### 4. Screenshot of Automatic Pod Replacement
-
-![ReplicaSet automatically replacing a deleted Pod](screenshots/pod-replacement.png)
-
-### 5. Screenshot of Flask Application
-
-![Flash Sale Flask application running in the browser](screenshots/flask-app.png)
-
 ## Screenshot of the Docker Hub Repository
 
 The Docker image was built and loaded locally into Minikube. If Docker Hub publishing is required, create a repository named `flashsale` and upload the image using the following commands.
