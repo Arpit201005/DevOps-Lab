@@ -27,17 +27,17 @@ In this exercise, an Nginx container is deployed as a Pod in a local Kubernetes 
 The Pod is then exposed using a NodePort Service, allowing the Nginx application to be accessed through a web browser.
 
 Output:-
-1\. Minikube Cluster
+## 7. Screenshots
+###  Minikube Cluster
 
-!\[Minikube Cluster](./Screenshot_1.png)
+![Minikube Cluster](Screenshot1.png)
 
-2\. Nginx Pod
+###  Nginx Pod
 
-!\[Nginx Pod](./Screenshot_2.png)
+![Nginx Pod](Screenshot2.png)
 
-3\. Nginx Service
-
-!\[Nginx Service](./Screenshot_3.png)
+### Nginx Service
+![Nginx Service](Screenshot3.png)
 
 
 Result:-
