@@ -146,15 +146,15 @@ Embed them in this README using:
 
 ### Prometheus Alerts
 
-![Prometheus Alerts](screenshots/prometheus-alerts.png)
+![Prometheus Alerts](Screenshots/prometheus-alerts.png)
 
 ### Prometheus Target Health
 
-![Prometheus Targets](screenshots/prometheus-targets.png)
+![Prometheus Targets](Screenshots/prometheus-targets.png)
 
 ### Grafana Delivery Metrics Dashboard
 
-![Grafana Dashboard](screenshots/grafana-dashboard.png)
+![Grafana Dashboard](Screenshots/grafana-dashboard.png)
 
 ## 7. Conclusion
 
