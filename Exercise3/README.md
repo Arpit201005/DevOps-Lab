@@ -216,7 +216,7 @@ Replace `<YOUR_DOCKERHUB_USERNAME>` with your Docker Hub username.
 
 After uploading the image, take a screenshot of your own Docker Hub repository and save it as `screenshots/dockerhub-repository.png`.
 
-![Docker Hub Flash Sale repository](screenshots/dockerhub-repository.png)
+![Docker Hub Flash Sale repository](Image_docker_repo.png)
 
 ## Key Learnings
 
