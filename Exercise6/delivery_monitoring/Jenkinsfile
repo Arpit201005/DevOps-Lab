@@ -1,0 +1,43 @@
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Exercise 6: Delivery Metrics Monitoring'
+                echo 'Checking project files...'
+                sh 'ls -la'
+            }
+        }
+
+        stage('Validate Python App') {
+            steps {
+                sh '''
+                    docker run --rm \
+                      -v "$PWD:/app" \
+                      -w /app \
+                      python:3.12-slim \
+                      python -m py_compile delivery_metrics.py
+                '''
+            }
+        }
+
+        stage('Validate Prometheus Config Files') {
+            steps {
+                sh '''
+                    test -f prometheus.yml
+                    test -f alert_rules.yml
+                    test -f requirements.txt
+                    echo "All configuration files found."
+                '''
+            }
+        }
+
+        stage('Success') {
+            steps {
+                echo 'Delivery Metrics project validation completed.'
+            }
+        }
+    }
+}
